@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/rewrite/list/
+  - https://developer.finpress.org/cli/commands/rewrite/list/
 ---

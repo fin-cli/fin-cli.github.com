@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/cron/event/list/
+  - https://developer.finpress.org/cli/commands/cron/event/list/
 ---

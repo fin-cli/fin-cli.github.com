@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/plugin/install/
+  - https://developer.finpress.org/cli/commands/plugin/install/
 ---

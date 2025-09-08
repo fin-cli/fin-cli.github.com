@@ -537,7 +537,7 @@ body.display-global-parameters #main_content {
 }
 
 /* Adjust visibility per page */
-body.command-line-interface-for-wordpress .global-parameters,
+body.command-line-interface-for-finpress .global-parameters,
 body.configuration .global-parameters{
 	display: none;
 	background: green;
@@ -553,7 +553,7 @@ body.configuration .global-parameters{
 	display: none;
 }
 
-.command-line-interface-for-wordpress #main_content,
+.command-line-interface-for-finpress #main_content,
 .blog #main_content {
 	width: 100%;
 }

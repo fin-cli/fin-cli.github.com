@@ -1,22 +1,22 @@
 #!/bin/bash
 
-# utility for comparing commands between two different wp-cli versions.
+# utility for comparing commands between two different fp-cli versions.
 
 if [ $# -lt 3 ]; then
-	echo 'usage: <version-a> <version-b> <wp-path>'
+	echo 'usage: <version-a> <version-b> <fp-path>'
 	exit 1
 fi
 
-wp_path=$3
+fp_path=$3
 
 get_syn_list() {
 	git checkout $1
-	wp --path=$wp_path --cmd-dump | php $(dirname $0)/syn-list.php
+	fp --path=$fp_path --cmd-dump | php $(dirname $0)/syn-list.php
 }
 
-get_syn_list $1 > /tmp/wp-cli-a
-get_syn_list $2 > /tmp/wp-cli-b
+get_syn_list $1 > /tmp/fp-cli-a
+get_syn_list $2 > /tmp/fp-cli-b
 
-diff /tmp/wp-cli-a /tmp/wp-cli-b > cmd.diff
+diff /tmp/fp-cli-a /tmp/fp-cli-b > cmd.diff
 
 echo 'Generated cmd.diff'

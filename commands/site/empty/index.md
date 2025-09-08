@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/site/empty/
+  - https://developer.finpress.org/cli/commands/site/empty/
 ---

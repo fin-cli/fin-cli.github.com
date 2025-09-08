@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/comment/meta/list/
+  - https://developer.finpress.org/cli/commands/comment/meta/list/
 ---

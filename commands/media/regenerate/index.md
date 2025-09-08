@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/media/regenerate/
+  - https://developer.finpress.org/cli/commands/media/regenerate/
 ---

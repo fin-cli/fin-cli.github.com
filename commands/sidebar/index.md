@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/sidebar/
+  - https://developer.finpress.org/cli/commands/sidebar/
 ---

@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/term/meta/update/
+  - https://developer.finpress.org/cli/commands/term/meta/update/
 ---

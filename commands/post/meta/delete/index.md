@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/post/meta/delete/
+  - https://developer.finpress.org/cli/commands/post/meta/delete/
 ---

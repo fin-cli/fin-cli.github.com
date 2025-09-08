@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/package/browse/
+  - https://developer.finpress.org/cli/commands/package/browse/
 ---

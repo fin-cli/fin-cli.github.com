@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/search-replace/
+  - https://developer.finpress.org/cli/commands/search-replace/
 ---

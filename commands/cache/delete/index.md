@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/cache/delete/
+  - https://developer.finpress.org/cli/commands/cache/delete/
 ---

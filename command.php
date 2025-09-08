@@ -1,33 +1,33 @@
 <?php
-namespace WP_CLI_Org;
+namespace FP_CLI_Org;
 
-use WP_CLI;
+use FP_CLI;
 use Mustache_Engine;
 
 /**
- * WP-CLI commands for generating the docs
+ * FP-CLI commands for generating the docs
  */
 
 /**
  * Run all generation commands to generate full website.
  *
- * @when before_wp_load
+ * @when before_fp_load
  */
 function generate() {
 	generate_homepage();
 }
-WP_CLI::add_command( 'website generate', 'WP_CLI_Org\generate' );
+FP_CLI::add_command( 'website generate', 'FP_CLI_Org\generate' );
 
 /**
- * Generate the homepage from WP-CLI's README.md
+ * Generate the homepage from FP-CLI's README.md
  *
- * @when before_wp_load
+ * @when before_fp_load
  */
 function generate_homepage() {
 
-	$ret = trim( shell_exec( 'which wp' ) );
+	$ret = trim( shell_exec( 'which fp' ) );
 	if ( empty( $ret ) ) {
-		WP_CLI::error( 'Could not find path to wp executable.' );
+		FP_CLI::error( 'Could not find path to fp executable.' );
 	}
 	if ( 'link' === filetype( $ret ) ) {
 		$ret = readlink( $ret );
@@ -35,33 +35,33 @@ function generate_homepage() {
 
 	$readme_path = dirname( dirname( $ret ) ) . '/README.md';
 	if ( ! is_file( $readme_path ) ) {
-		WP_CLI::error( 'Could not find README.md in wp executable PATH. Please make sure wp executable points to git clone.' );
+		FP_CLI::error( 'Could not find README.md in fp executable PATH. Please make sure fp executable points to git clone.' );
 	}
 
 	$contents = file_get_contents( $readme_path );
 	$search = <<<EOT
-WP-CLI
+FP-CLI
 ======
 EOT;
 	$replace = <<<EOT
 ---
 layout: default
-title: Command line interface for WordPress
+title: Command line interface for FinPress
 ---
 EOT;
 	$contents = str_replace( $search, $replace, $contents );
 	file_put_contents( dirname( __FILE__ ) . '/index.md', $contents );
-	WP_CLI::success( 'Updated index.md from project README.md.' );
+	FP_CLI::success( 'Updated index.md from project README.md.' );
 }
-WP_CLI::add_command( 'website generate-homepage', '\WP_CLI_Org\generate_homepage' );
+FP_CLI::add_command( 'website generate-homepage', '\FP_CLI_Org\generate_homepage' );
 
-function invoke_wp_cli( $cmd ) {
+function invoke_fp_cli( $cmd ) {
 	ob_start();
-	system( "WP_CLI_CONFIG_PATH=/dev/null $cmd", $return_code );
+	system( "FP_CLI_CONFIG_PATH=/dev/null $cmd", $return_code );
 	$json = ob_get_clean();
 
 	if ( $return_code ) {
-		echo "WP-CLI returned error code: $return_code\n";
+		echo "FP-CLI returned error code: $return_code\n";
 		exit(1);
 	}
 

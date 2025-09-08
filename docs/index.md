@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://make.wordpress.org/cli/handbook/
+  - https://make.finpress.org/cli/handbook/
 ---

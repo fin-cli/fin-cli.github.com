@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/post/term/remove/
+  - https://developer.finpress.org/cli/commands/post/term/remove/
 ---

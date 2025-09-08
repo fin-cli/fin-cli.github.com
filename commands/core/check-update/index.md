@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/core/check-update/
+  - https://developer.finpress.org/cli/commands/core/check-update/
 ---

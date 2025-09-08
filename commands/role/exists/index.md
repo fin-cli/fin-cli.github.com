@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/role/exists/
+  - https://developer.finpress.org/cli/commands/role/exists/
 ---

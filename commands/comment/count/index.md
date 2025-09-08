@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/comment/count/
+  - https://developer.finpress.org/cli/commands/comment/count/
 ---

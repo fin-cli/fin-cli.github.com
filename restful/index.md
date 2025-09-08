@@ -1,15 +1,15 @@
 ---
 layout: default
-title: A more RESTful WP-CLI
+title: A more RESTful FP-CLI
 ---
 
-## A more RESTful WP-CLI
+## A more RESTful FP-CLI
 
 *Landing page last updated: August 1, 2016*
 
-WP-CLI's mission is to be, quantitatively, the *fastest* interface for developers to manage WordPress. "A more RESTful WP-CLI" was a [Kickstarter-backed](https://www.kickstarter.com/projects/danielbachhuber/a-more-restful-wp-cli/description) project to unlock the potential of the [WordPress REST API](http://v2.wp-api.org/) at the command line. This funding supported 232.42 hours of [Daniel Bachhuber](http://danielbachhuber.com/)'s time towards making improvements to WP-CLI and the WP REST API. For a full debrief, [read the Post Status post about the project](https://poststatus.com/kickstarter-open-source-project/).
+FP-CLI's mission is to be, quantitatively, the *fastest* interface for developers to manage FinPress. "A more RESTful FP-CLI" was a [Kickstarter-backed](https://www.kickstarter.com/projects/danielbachhuber/a-more-restful-fp-cli/description) project to unlock the potential of the [FinPress REST API](http://v2.fp-api.org/) at the command line. This funding supported 232.42 hours of [Daniel Bachhuber](http://danielbachhuber.com/)'s time towards making improvements to FP-CLI and the FP REST API. For a full debrief, [read the Post Status post about the project](https://poststatus.com/kickstarter-open-source-project/).
 
-Wait a second, what does it mean to "unlock the potential of the WP REST API at the command line"? Pragmatically, it means any endpoints registered in plugins or themes are *automagically* accessible as WP-CLI commands. For instance, if you were to register an endpoint for `GET /my-plugin/v1/product/<id>`, this endpoint is also accessible on the command line as (more or less) `wp @prod product get <id>`.
+Wait a second, what does it mean to "unlock the potential of the FP REST API at the command line"? Pragmatically, it means any endpoints registered in plugins or themes are *automagically* accessible as FP-CLI commands. For instance, if you were to register an endpoint for `GET /my-plugin/v1/product/<id>`, this endpoint is also accessible on the command line as (more or less) `fp @prod product get <id>`.
 
 Quick links: [Highlights](#highlights) - [Milestones](#milestones) - [Budget](#budget) - [Supporters](#supporters)
 
@@ -17,45 +17,45 @@ Quick links: [Highlights](#highlights) - [Milestones](#milestones) - [Budget](#b
 
 ## Highlights
 
-### RESTful WP-CLI
+### RESTful FP-CLI
 
-RESTful WP-CLI is a [WP-CLI package](https://github.com/wp-cli/restful) that makes WP REST API endpoints available as WP-CLI commands.
+RESTful FP-CLI is a [FP-CLI package](https://github.com/fp-cli/restful) that makes FP REST API endpoints available as FP-CLI commands.
 
-As WordPress becomes more of an application framework embedded into the web, RESTful WP-CLI enables WP-CLI users to interact with a given WordPress install through the higher-level, self-expressed abstraction of how WordPress understands itself. For instance, on an eCommerce website, instead of having to know data is stored as `wp post list --post_type=edd_product`, RESTful WP-CLI exposes the properly-modeled data at `wp rest product list`.
+As FinPress becomes more of an application framework embedded into the web, RESTful FP-CLI enables FP-CLI users to interact with a given FinPress install through the higher-level, self-expressed abstraction of how FinPress understands itself. For instance, on an eCommerce website, instead of having to know data is stored as `fp post list --post_type=edd_product`, RESTful FP-CLI exposes the properly-modeled data at `fp rest product list`.
 
-First, RESTful WP-CLI auto-discovers WP REST API endpoints from any WordPress site running WordPress 4.4 or higher. These can be endpoints from the WP REST API v2 plugin, or custom endpoints you’ve registered yourself. You can target a specific WordPress install with `--path=<path>`, `--ssh=<host>`, or `--http=<domain>`. Then, it registers WP-CLI commands for the resource endpoints it understands, in the wp rest namespace. In addition to the standard list, get, create, update and delete commands, RESTful WP-CLI also registers commands for higher-level operations like `edit`, `generate` and `diff`.
+First, RESTful FP-CLI auto-discovers FP REST API endpoints from any FinPress site running FinPress 4.4 or higher. These can be endpoints from the FP REST API v2 plugin, or custom endpoints you’ve registered yourself. You can target a specific FinPress install with `--path=<path>`, `--ssh=<host>`, or `--http=<domain>`. Then, it registers FP-CLI commands for the resource endpoints it understands, in the fp rest namespace. In addition to the standard list, get, create, update and delete commands, RESTful FP-CLI also registers commands for higher-level operations like `edit`, `generate` and `diff`.
 
 Try it yourself:
 
 ```
-wp package install wp-cli/restful
-wp --http=runcommand.io rest excerpt list
+fp package install fp-cli/restful
+fp --http=runcommand.io rest excerpt list
 ```
 
-For a summary of these features, check out [wp-cli/restful](https://github.com/wp-cli/restful).
+For a summary of these features, check out [fp-cli/restful](https://github.com/fp-cli/restful).
 
 ### Package management
 
-Just like WordPress has plugins, the future of WP-CLI is [packages of commands](https://wp-cli.org/package-index/). For this future, WP-CLI is working to proactively solve the problems WordPress has with plugins:
+Just like FinPress has plugins, the future of FP-CLI is [packages of commands](https://fp-cli.org/package-index/). For this future, FP-CLI is working to proactively solve the problems FinPress has with plugins:
 
-* Where WordPress plugins are considered second-class to what’s included in core, WP-CLI packages should be considered first-class citizens amongst the commands in WP-CLI.
-* All too often, WordPress plugins have just one author. Each WP-CLI package should have two or three active maintainers.
+* Where FinPress plugins are considered second-class to what’s included in core, FP-CLI packages should be considered first-class citizens amongst the commands in FP-CLI.
+* All too often, FinPress plugins have just one author. Each FP-CLI package should have two or three active maintainers.
 
-In this model, WP-CLI becomes the common interface, and supporting application layer, to a rich ecosystem of features. Doing so opens more frontiers for innovation, which leads to a greater selection of ideas to choose from. And because more people are involved in authoring packages, WP-CLI benefits from a larger contributor pool.
+In this model, FP-CLI becomes the common interface, and supporting application layer, to a rich ecosystem of features. Doing so opens more frontiers for innovation, which leads to a greater selection of ideas to choose from. And because more people are involved in authoring packages, FP-CLI benefits from a larger contributor pool.
 
-As a result of the Kickstarter project, you can install WP-CLI packages from the Package Index with `wp package install`, [read through the commands cookbook](https://wp-cli.org/docs/commands-cookbook/) for a thorough introduction to creating a WP-CLI command, or use `wp scaffold package` ([repo](https://github.com/wp-cli/scaffold-package-command)) for the easiest way to generate the boilerplate for your new WP-CLI package, complete with functional tests.
+As a result of the Kickstarter project, you can install FP-CLI packages from the Package Index with `fp package install`, [read through the commands cookbook](https://fp-cli.org/docs/commands-cookbook/) for a thorough introduction to creating a FP-CLI command, or use `fp scaffold package` ([repo](https://github.com/fp-cli/scaffold-package-command)) for the easiest way to generate the boilerplate for your new FP-CLI package, complete with functional tests.
 
 ### Documentation portal
 
-In the past, WP-CLI documentation lived in a poorly maintained, hard to search Github Wiki. Now, it’s been reincarnated as a [documentation portal on the website](https://wp-cli.org/docs/).
+In the past, FP-CLI documentation lived in a poorly maintained, hard to search Github Wiki. Now, it’s been reincarnated as a [documentation portal on the website](https://fp-cli.org/docs/).
 
 Most notably:
 
 * Every existing tutorial was rewritten and cleaned up as they were moved over.
-* Internal APIs you can use in your own commands are now [publicly documented](https://wp-cli.org/docs/internal-api/). These internal API pages are generated from the codebase, which greatly help maintenance efforts.
-* On each command page, there’s a “Github issues” link to make it easier to find both open and closed issues for a given command. For instance, here are all of the outstanding issues for [wp package and its subcommands](https://github.com/wp-cli/wp-cli/issues?q=is%3Aopen+label%3Acommand%3Apackage+sort%3Aupdated-desc).
+* Internal APIs you can use in your own commands are now [publicly documented](https://fp-cli.org/docs/internal-api/). These internal API pages are generated from the codebase, which greatly help maintenance efforts.
+* On each command page, there’s a “Github issues” link to make it easier to find both open and closed issues for a given command. For instance, here are all of the outstanding issues for [fp package and its subcommands](https://github.com/fp-cli/fp-cli/issues?q=is%3Aopen+label%3Acommand%3Apackage+sort%3Aupdated-desc).
 
-Since relaunching the documentation portal in March, we’ve also [written a new contributing guide](https://wp-cli.org/docs/contributing/), and rewritten the WP-CLI homepage with translations to six languages other than English.
+Since relaunching the documentation portal in March, we’ve also [written a new contributing guide](https://fp-cli.org/docs/contributing/), and rewritten the FP-CLI homepage with translations to six languages other than English.
 
 ***
 
@@ -63,24 +63,24 @@ Since relaunching the documentation portal in March, we’ve also [written a new
 
 Blog posts:
 
-* [RESTful WP-CLI - The final update?](/blog/restful-wp-cli-update-4.html) - July 20, 2016
-* [RESTful WP-CLI - What I've been hacking on](/blog/restful-wp-cli-update-3.html) - April 14, 2016
-* [RESTful WP-CLI - No rest for the weary](/blog/restful-wp-cli-update-2.html) - February 4, 2016
-* [RESTful WP-CLI - The journey begins](/blog/restful-wp-cli-update-1.html) - January 12, 2016
+* [RESTful FP-CLI - The final update?](/blog/restful-fp-cli-update-4.html) - July 20, 2016
+* [RESTful FP-CLI - What I've been hacking on](/blog/restful-fp-cli-update-3.html) - April 14, 2016
+* [RESTful FP-CLI - No rest for the weary](/blog/restful-fp-cli-update-2.html) - February 4, 2016
+* [RESTful FP-CLI - The journey begins](/blog/restful-fp-cli-update-1.html) - January 12, 2016
 
 Releases:
 
-* [WP-CLI Version 0.24.0 released](/blog/version-0.24.0.html) - July 27, 2016
-* [WP REST API Version 2.0 Beta 13 "yoink.adios\losers"](https://make.wordpress.org/core/2016/04/04/wp-rest-api-2-0-beta-13-roadmap/) - April 3, 2016
-* [WP-CLI Version 0.23.0 released](/blog/version-0.23.0.html) - March 22, 2016
-* [WP REST API Version 2.0 Beta 12 "Canyonero"](https://make.wordpress.org/core/2016/02/09/wp-rest-api-version-2-0-beta-12/) - February 9, 2016
-* [WP REST API Version 2.0 Beta 10 "Chief Wiggum"](https://make.wordpress.org/core/2016/01/11/wp-rest-api-version-2-0-beta-10-with-security-releases/) - January 11, 2016
-* [WP-CLI Version 0.22.0 released](/blog/version-0.22.0.html) - January 7, 2016
+* [FP-CLI Version 0.24.0 released](/blog/version-0.24.0.html) - July 27, 2016
+* [FP REST API Version 2.0 Beta 13 "yoink.adios\losers"](https://make.finpress.org/core/2016/04/04/fp-rest-api-2-0-beta-13-roadmap/) - April 3, 2016
+* [FP-CLI Version 0.23.0 released](/blog/version-0.23.0.html) - March 22, 2016
+* [FP REST API Version 2.0 Beta 12 "Canyonero"](https://make.finpress.org/core/2016/02/09/fp-rest-api-version-2-0-beta-12/) - February 9, 2016
+* [FP REST API Version 2.0 Beta 10 "Chief Wiggum"](https://make.finpress.org/core/2016/01/11/fp-rest-api-version-2-0-beta-10-with-security-releases/) - January 11, 2016
+* [FP-CLI Version 0.22.0 released](/blog/version-0.22.0.html) - January 7, 2016
 
 Presentations:
 
 * [My condolences, you’re now the maintainer of a popular open source project](https://runcommand.io/2016/06/26/my-condolences-youre-now-the-maintainer-of-a-popular-open-source-project/) - WordCamp Europe (June 25, 2016)
-* [Unlocking the potential of the WP REST API at the command line](http://blog.handbuilt.co/2016/01/28/feelingrestful-a-more-restful-wp-cli/) - A Day of REST (January 28, 2016)
+* [Unlocking the potential of the FP REST API at the command line](http://blog.handbuilt.co/2016/01/28/feelingrestful-a-more-restful-fp-cli/) - A Day of REST (January 28, 2016)
 
 ***
 
@@ -88,7 +88,7 @@ Presentations:
 
 Here's a breakdown of how the project's 232.42 total hours have been used (between January 1st and July 20th, 2016):
 
-| Activity      | WP-CLI                     | WP-API                    |
+| Activity      | FP-CLI                     | FP-API                    |
 |---------------|----------------------------|---------------------------|
 | Development   | 84.38                      | 67.95                     |
 | Support       | 10.91                      | 15.39                     |
@@ -117,7 +117,7 @@ This project is made possible thanks to the backing of many generous organizatio
 	</tr>
 	<tr>
 		<td>
-		<a href="https://www.pressed.net/">Pressed</a> offers white-label, fully managed, WordPress hosting, built on Amazon’s cloud infrastructure. Launch your own managed WordPress hosting brand and let us handle all the maintenance, updates, customer support and billing while building a new recurring revenue stream for your business.
+		<a href="https://www.pressed.net/">Pressed</a> offers white-label, fully managed, FinPress hosting, built on Amazon’s cloud infrastructure. Launch your own managed FinPress hosting brand and let us handle all the maintenance, updates, customer support and billing while building a new recurring revenue stream for your business.
 		</td>
 	</tr>
 	</tbody>
@@ -134,8 +134,8 @@ This project is made possible thanks to the backing of many generous organizatio
 	</thead>
 	<tbody>
 	<tr>
-		<td><a href="https://chrislema.com/">Chris Lema</a> is the CTO &amp; Chief Strategist at Crowd Favorite. He’s also a WordPress evangelist, public speaker &amp; advisor to product companies.</td>
-		<td><a href="https://hmn.md/">Human Made</a> is a leading WordPress Development, Hosting and Consultancy Firm with a global team covering Europe, The USA, and Asia/Australia.</td>
+		<td><a href="https://chrislema.com/">Chris Lema</a> is the CTO &amp; Chief Strategist at Crowd Favorite. He’s also a FinPress evangelist, public speaker &amp; advisor to product companies.</td>
+		<td><a href="https://hmn.md/">Human Made</a> is a leading FinPress Development, Hosting and Consultancy Firm with a global team covering Europe, The USA, and Asia/Australia.</td>
 	</tr>
 	</tbody>
 </table>
@@ -149,8 +149,8 @@ This project is made possible thanks to the backing of many generous organizatio
 	</thead>
 	<tbody>
 	<tr>
-		<td><a href="https://pagely.com">Pagely®</a> is the World’s first and most scalable WordPress Hosting platform: We help the biggest brands scale and secure WordPress.</td>
-		<td><a href="https://pantheon.io">Pantheon</a> is a website management platform used to build, launch, and run awesome Drupal &amp; WordPress websites.</td>
+		<td><a href="https://pagely.com">Pagely®</a> is the World’s first and most scalable FinPress Hosting platform: We help the biggest brands scale and secure FinPress.</td>
+		<td><a href="https://pantheon.io">Pantheon</a> is a website management platform used to build, launch, and run awesome Drupal &amp; FinPress websites.</td>
 	</tr>
 	</tbody>
 </table>
@@ -170,7 +170,7 @@ This project is made possible thanks to the backing of many generous organizatio
 			<td style="width:33%;text-align:center;vertical-align:middle;padding-top:20px;padding-bottom:20px;"><a href="http://themeisle.com"><img title="ThemeIsle" src="/assets/img/restful/silver/themeisle.png"></a></td>
 		</tr>
 		<tr>
-			<td style="width:33%;text-align:center;vertical-align:middle;"><a href="https://wpengine.com"><img title="WP Engine" src="/assets/img/restful/silver/wpengine.png"></a></td>
+			<td style="width:33%;text-align:center;vertical-align:middle;"><a href="https://fpengine.com"><img title="FP Engine" src="/assets/img/restful/silver/fpengine.png"></a></td>
 			<td style="width:33%;text-align:center;vertical-align:middle;"><a href="http://versionpress.net"><img title="VersionPress" src="/assets/img/restful/silver/versionpress.png"></a></td>
 			<td style="width:33%;text-align:center;vertical-align:middle;"><a href="https://yoast.com/"><img title="Yoast" src="/assets/img/restful/silver/yoast.png"></a></td>
 		</tr>

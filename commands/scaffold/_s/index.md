@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/scaffold/_s/
+  - https://developer.finpress.org/cli/commands/scaffold/_s/
 ---

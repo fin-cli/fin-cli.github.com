@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/media/import/
+  - https://developer.finpress.org/cli/commands/media/import/
 ---

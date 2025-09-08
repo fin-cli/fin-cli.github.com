@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/eval-file/
+  - https://developer.finpress.org/cli/commands/eval-file/
 ---

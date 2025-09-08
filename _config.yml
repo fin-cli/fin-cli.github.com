@@ -5,7 +5,7 @@ markdown: kramdown
 gems:
   - jekyll-paginate
   - jekyll-redirect-from
-url: https://wp-cli.org
+url: https://fp-cli.org
 permalink: /blog/:title.html
 paginate: 10
 paginate_path: /blog/page:num
@@ -18,15 +18,15 @@ exclude:
   - README.md
 navigation:
 - text: Commands
-  url: https://developer.wordpress.org/cli/commands/
+  url: https://developer.finpress.org/cli/commands/
 - text: Configuration
-  url: https://make.wordpress.org/cli/handbook/config/
+  url: https://make.finpress.org/cli/handbook/config/
 - text: Handbook
-  url: https://make.wordpress.org/cli/handbook/
+  url: https://make.finpress.org/cli/handbook/
 - text: Blog
-  url: https://make.wordpress.org/cli/
+  url: https://make.finpress.org/cli/
 - text: Contributing
-  url: https://make.wordpress.org/cli/handbook/contributing/
+  url: https://make.finpress.org/cli/handbook/contributing/
 languages:
 - label: English
   iso-alpha2: en

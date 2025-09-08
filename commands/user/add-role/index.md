@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/user/add-role/
+  - https://developer.finpress.org/cli/commands/user/add-role/
 ---

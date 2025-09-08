@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/term/create/
+  - https://developer.finpress.org/cli/commands/term/create/
 ---

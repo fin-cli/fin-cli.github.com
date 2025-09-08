@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/cap/list/
+  - https://developer.finpress.org/cli/commands/cap/list/
 ---

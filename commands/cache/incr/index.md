@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/cache/incr/
+  - https://developer.finpress.org/cli/commands/cache/incr/
 ---
