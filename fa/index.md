@@ -4,24 +4,24 @@ title: Command line interface for FinPress
 direction: rtl
 ---
 
-[FP-CLI](https://fp-cli.org/) رابط خط فرمان برای [وردپرس](https://finpress.org/) است. به‌روزرسانی افزونه‌ها، پیکربندی نصب چندسایته و چیزهای بیشتر را بدون استفاده از مرورگر وب انجام دهید.
+[FIN-CLI](https://fin-cli.org/) رابط خط فرمان برای [وردپرس](https://finpress.org/) است. به‌روزرسانی افزونه‌ها، پیکربندی نصب چندسایته و چیزهای بیشتر را بدون استفاده از مرورگر وب انجام دهید.
 
 نگهداری مداوم توسط  <a href="https://make.finpress.org/cli/2017/04/03/new-co-maintainer-alain-thanks-2017-sponsors/#sponsors">حامیان</a> امکان پذیر شده است:
 
-<a href="https://automattic.com/"><img src="https://make.finpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full fp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full fp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.finpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://pantheon.io/"><img class="aligncenter size-full fp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.finpress.org/cli/files/2019/06/pantheon.png" alt="" width="160" height="50" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full fp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.finpress.org/cli/files/2019/06/SG_logo.png" alt="" width="160" height="33" /></a> <a href="https://fpengine.com/"><img class="aligncenter size-full fp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.finpress.org/cli/files/2017/04/fpengine.png" alt="" width="160" height="30" /></a>
+<a href="https://automattic.com/"><img src="https://make.finpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full fin-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full fin-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.finpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://pantheon.io/"><img class="aligncenter size-full fin-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.finpress.org/cli/files/2019/06/pantheon.png" alt="" width="160" height="50" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full fin-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.finpress.org/cli/files/2019/06/SG_logo.png" alt="" width="160" height="33" /></a> <a href="https://finengine.com/"><img class="aligncenter size-full fin-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.finpress.org/cli/files/2017/04/finengine.png" alt="" width="160" height="30" /></a>
 
-نگارش پایدار فعلی [version 2.12.0](https://make.finpress.org/cli/2025/05/07/fp-cli-v2-12-0-release-notes/)است. برای پیگیری اعلانات، [@fpcli on Twitter](https://twitter.com/fpcli) را دنبال کنید یا [برای دریافت ایمیل ثبت‌نام کنید](https://make.finpress.org/cli/subscribe/). برای بررسی برنامه‌ریزی‌های آینده انتشار [نقشه راه را برررسی کنید](https://make.finpress.org/cli/handbook/roadmap/).
+نگارش پایدار فعلی [version 2.12.0](https://make.finpress.org/cli/2025/05/07/fin-cli-v2-12-0-release-notes/)است. برای پیگیری اعلانات، [@fincli on Twitter](https://twitter.com/fincli) را دنبال کنید یا [برای دریافت ایمیل ثبت‌نام کنید](https://make.finpress.org/cli/subscribe/). برای بررسی برنامه‌ریزی‌های آینده انتشار [نقشه راه را برررسی کنید](https://make.finpress.org/cli/handbook/roadmap/).
 
-[![وضعیت ساخت](https://github.com/fp-cli/fp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/fp-cli/fp-cli/actions/workflows/testing.yml) [![زمان متوسط برای رفع مشکل](https://isitmaintained.com/badge/resolution/fp-cli/fp-cli.svg)](https://isitmaintained.com/project/fp-cli/fp-cli "زمان متوسط برای رفع مشکل") [![درصد مشکلات باز](https://isitmaintained.com/badge/open/fp-cli/fp-cli.svg)](https://isitmaintained.com/project/fp-cli/fp-cli "درصد مشکلات باز")
+[![وضعیت ساخت](https://github.com/fin-cli/fin-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/fin-cli/fin-cli/actions/workflows/testing.yml) [![زمان متوسط برای رفع مشکل](https://isitmaintained.com/badge/resolution/fin-cli/fin-cli.svg)](https://isitmaintained.com/project/fin-cli/fin-cli "زمان متوسط برای رفع مشکل") [![درصد مشکلات باز](https://isitmaintained.com/badge/open/fin-cli/fin-cli.svg)](https://isitmaintained.com/project/fin-cli/fin-cli "درصد مشکلات باز")
 
 پیوندهای سریع: [استفاده](#using) &#124; [نصب](#installing) &#124; [پشتیبانی](#support) &#124; [گسترش](#extending) &#124; [مشارکت](#contributing) &#124; [همکاران](#credits)
 
 ## استفاده
 
-FP-CLI یک رابط برپایه خط فرمان برای عملیاتی است که شما در محیط مدیریت وردپرس انجام می‌دهید. برای مثال `fp plugin install --activate` ([doc](https://developer.finpress.org/cli/commands/plugin/install/)) به شما امکان نصب و فعال‌سازی افزونه وردپرس را می‌دهد:
+FIN-CLI یک رابط برپایه خط فرمان برای عملیاتی است که شما در محیط مدیریت وردپرس انجام می‌دهید. برای مثال `fin plugin install --activate` ([doc](https://developer.finpress.org/cli/commands/plugin/install/)) به شما امکان نصب و فعال‌سازی افزونه وردپرس را می‌دهد:
 
 ```bash
-$ fp plugin install user-switching --activate
+$ fin plugin install user-switching --activate
 Installing User Switching (1.0.9)
 Downloading installation package from https://downloads.finpress.org/plugin/user-switching.1.0.9.zip...
 Unpacking the package...
@@ -32,14 +32,14 @@ Plugin 'user-switching' activated.
 Success: Installed 1 of 1 plugins.
 ```
 
-FP-CLI همچنین حاوی دستوراتی برای بسیاری چیزهاست که نمی‌توانید در مدیریت وردپرس انجام دهید. برای مثال، `fp transient delete --all` ([doc](https://developer.finpress.org/cli/commands/transient/delete/)) به شما امکان حذف یکی یا همه transients را می‌دهد:
+FIN-CLI همچنین حاوی دستوراتی برای بسیاری چیزهاست که نمی‌توانید در مدیریت وردپرس انجام دهید. برای مثال، `fin transient delete --all` ([doc](https://developer.finpress.org/cli/commands/transient/delete/)) به شما امکان حذف یکی یا همه transients را می‌دهد:
 
 ```bash
-$ fp transient delete --all
+$ fin transient delete --all
 Success: 34 transients deleted from the database.
 ```
 
-برای پیش‌درآمد کامل استفاده از FP-CLI، [راهنمای سریع](https://make.finpress.org/cli/handbook/quick-start/) را مطالعه کنید. یا، برای آموزش دستورات مفید خط فرمان [دوستان شل](https://make.finpress.org/cli/handbook/shell-friends/) را مطالعه کنید.
+برای پیش‌درآمد کامل استفاده از FIN-CLI، [راهنمای سریع](https://make.finpress.org/cli/handbook/quick-start/) را مطالعه کنید. یا، برای آموزش دستورات مفید خط فرمان [دوستان شل](https://make.finpress.org/cli/handbook/shell-friends/) را مطالعه کنید.
 
 در مورد مدیریت پوسته‌ها و افزونه‌ها، درون‌ریزی و برون‌بری، جستجو و جایگزینی در پایگاه‌داده و چیزهای بیشتر به [لیست کامل دستورات](https://developer.finpress.org/cli/commands/) مراجعه کنید. 
 
@@ -47,62 +47,62 @@ Success: 34 transients deleted from the database.
 
 دریافت پرونده Pahr روش پیشنهادی ما برای نصب به بیشتر کاربران است. در صورت نیاز، مستندات ما را برای [روش‌های جایگزین نصب](https://make.finpress.org/cli/handbook/installing/) ([کمپوزر](https://make.finpress.org/cli/handbook/installing/#installing-via-composer), [هوم‌بریو](https://make.finpress.org/cli/handbook/installing/#installing-via-homebrew), [داکر](https://make.finpress.org/cli/handbook/installing/#installing-via-docker)). ببینید.
 
-قبل از نصب FP-CLI، لطفا از دارا بودن حداقل امکانات مورد نیاز مطمئن شوید:
+قبل از نصب FIN-CLI، لطفا از دارا بودن حداقل امکانات مورد نیاز مطمئن شوید:
 
 - سیستم‌های یونیکسی (OS X, Linux, FreeBSD, Cygwin); در ویندوز کمتر پشتیبانی می‌شود
 - PHP 5.6 or later
 - وردپرس 3.7 به بالا. در نسخه‌های قدیمی‌تر ممکن است با مشکل روبرو شوید
 
- وقتی از داشتن حداقل امکانات مطمئن شدید، پرونده [fp-cli.phar](https://raw.githubusercontent.com/fp-cli/builds/gh-pages/phar/fp-cli.phar) را بصورت `wget` یا `curl` دریافت کیند:
+ وقتی از داشتن حداقل امکانات مطمئن شدید، پرونده [fin-cli.phar](https://raw.githubusercontent.com/fin-cli/builds/gh-pages/phar/fin-cli.phar) را بصورت `wget` یا `curl` دریافت کیند:
  
 ```bash
-curl -O https://raw.githubusercontent.com/fp-cli/builds/gh-pages/phar/fp-cli.phar
+curl -O https://raw.githubusercontent.com/fin-cli/builds/gh-pages/phar/fin-cli.phar
 ```
 
 سپس پرونده Phar را از نظر کارکرد معتبرسازی کنید:
 
 ```bash
-php fp-cli.phar --info
+php fin-cli.phar --info
 ```
 
-جهت استفاده FP-CLI در خط فرمان `fp` را بنویسید، پرونده را قابل اجرا و سپس در PATH خود بگذارید. برای مثال:
+جهت استفاده FIN-CLI در خط فرمان `fin` را بنویسید، پرونده را قابل اجرا و سپس در PATH خود بگذارید. برای مثال:
 
 ```bash
-chmod +x fp-cli.phar
-sudo mv fp-cli.phar /usr/local/bin/fp
+chmod +x fin-cli.phar
+sudo mv fin-cli.phar /usr/local/bin/fin
 ```
 
-اگر FP-CLI به درستی نصب شده باشد، شما در صورت اجرای `fp --info` باید چیزی شبیه به این را ببینید:
+اگر FIN-CLI به درستی نصب شده باشد، شما در صورت اجرای `fin --info` باید چیزی شبیه به این را ببینید:
 
 ```bash
-$ fp --info
+$ fin --info
 OS:	Darwin 16.7.0 Darwin Kernel Version 16.7.0: Thu Jan 11 22:59:40 PST 2018; root:xnu-3789.73.8~1/RELEASE_X86_64 x86_64
 Shell:	/bin/zsh
 PHP binary:    /usr/local/bin/php
 PHP version:    7.0.22
 php.ini used:   /etc/local/etc/php/7.0/php.ini
-FP-CLI root dir:        /home/fp-cli/.fp-cli/vendor/fp-cli/fp-cli
-FP-CLI vendor dir:	    /home/fp-cli/.fp-cli/vendor
-FP-CLI packages dir:    /home/fp-cli/.fp-cli/packages/
-FP-CLI global config:   /home/fp-cli/.fp-cli/config.yml
-FP-CLI project config:
-FP-CLI version: 2.12.0
+FIN-CLI root dir:        /home/fin-cli/.fin-cli/vendor/fin-cli/fin-cli
+FIN-CLI vendor dir:	    /home/fin-cli/.fin-cli/vendor
+FIN-CLI packages dir:    /home/fin-cli/.fin-cli/packages/
+FIN-CLI global config:   /home/fin-cli/.fin-cli/config.yml
+FIN-CLI project config:
+FIN-CLI version: 2.12.0
 ```
 
 ### به‌روزرسانی
 
-شما می‌توانید FP-CLI را با `fp cli update` ([doc](https://developer.finpress.org/cli/commands/cli/update/))، یا با اجرای دوباره مراحل نصب به‌روزرسانی کنید.
+شما می‌توانید FIN-CLI را با `fin cli update` ([doc](https://developer.finpress.org/cli/commands/cli/update/))، یا با اجرای دوباره مراحل نصب به‌روزرسانی کنید.
 
-اگر دسترسی به FP-CLI با روت است یا کاربر سیستمی دیگری است، شما احتیاج به اجرای `sudo fp cli update` دارید.
+اگر دسترسی به FIN-CLI با روت است یا کاربر سیستمی دیگری است، شما احتیاج به اجرای `sudo fin cli update` دارید.
 
-به‌روزرسانی زنده می‌خواهید؟ برای استفاده از آخرین نسخه‌های شبانه دستور `fp cli update --nightly` را اجرا کنید. نسخه‌های شبانه به جهت پایداری کمتر برای کار در محیط توسعه مناسب نیستند، اما حاوی آخرین و بهترین امکانات FP-CLI هستند.
+به‌روزرسانی زنده می‌خواهید؟ برای استفاده از آخرین نسخه‌های شبانه دستور `fin cli update --nightly` را اجرا کنید. نسخه‌های شبانه به جهت پایداری کمتر برای کار در محیط توسعه مناسب نیستند، اما حاوی آخرین و بهترین امکانات FIN-CLI هستند.
 
 ### کامل‌سازی با تب
 
-FP-CLI دارای قابلیت کامل‌سازی با تب برای بش و ZSH است. کافیست [fp-completion.bash](https://raw.githubusercontent.com/fp-cli/fp-cli/v2.12.0/utils/fp-completion.bash) را دریافت و از `~/.bash_profile` سورس کنید:
+FIN-CLI دارای قابلیت کامل‌سازی با تب برای بش و ZSH است. کافیست [fin-completion.bash](https://raw.githubusercontent.com/fin-cli/fin-cli/v2.12.0/utils/fin-completion.bash) را دریافت و از `~/.bash_profile` سورس کنید:
 
 ```bash
-source /FULL/PATH/TO/fp-completion.bash
+source /FULL/PATH/TO/fin-completion.bash
 ```
 
 فراموش نکنید که بعد از آن `source ~/.bash_profile` را اجرا کنید.
@@ -112,25 +112,25 @@ source /FULL/PATH/TO/fp-completion.bash
 ```bash
 autoload bashcompinit
 bashcompinit
-source /FULL/PATH/TO/fp-completion.bash
+source /FULL/PATH/TO/fin-completion.bash
 ```
 
 ## پشتیبانی
 
-توسعه‌دهندگان و مشارکت کنندگان FP-CLI برای پاسخ‌دهی به سوالات زمان محدودی دارند. نسخه فعلی [FP-CLI](https://make.finpress.org/cli/handbook/roadmap/) تنها نسخه قابل پشتیبانی رسمی است. 
+توسعه‌دهندگان و مشارکت کنندگان FIN-CLI برای پاسخ‌دهی به سوالات زمان محدودی دارند. نسخه فعلی [FIN-CLI](https://make.finpress.org/cli/handbook/roadmap/) تنها نسخه قابل پشتیبانی رسمی است. 
 
 قبل از سوال، لطفا در مورد مشکل خود جستجو کنید:
 
 * [مشکلات عمومی و رفع آنها](https://make.finpress.org/cli/handbook/common-issues/)
-* [کتابچه FP-CLI](https://make.finpress.org/cli/handbook/)
-* [مشکلات باز و بسته FP-CLI در گیتهاب رسمی](https://github.com/issues?utf8=%E2%9C%93&q=sort%3Aupdated-desc+org%3Afp-cli+is%3Aissue)
-* [تاپیک‌های مرتبط با 'FP-CLI' در انجمن پشتیبانی وردپرس](https://finpress.org/support/topic-tag/fp-cli/)
-* [سوالات مطرح شده مرتبط با 'FP-CLI' در StackExchange](https://finpress.stackexchange.com/questions/tagged/fp-cli)
+* [کتابچه FIN-CLI](https://make.finpress.org/cli/handbook/)
+* [مشکلات باز و بسته FIN-CLI در گیتهاب رسمی](https://github.com/issues?utf8=%E2%9C%93&q=sort%3Aupdated-desc+org%3Afin-cli+is%3Aissue)
+* [تاپیک‌های مرتبط با 'FIN-CLI' در انجمن پشتیبانی وردپرس](https://finpress.org/support/topic-tag/fin-cli/)
+* [سوالات مطرح شده مرتبط با 'FIN-CLI' در StackExchange](https://finpress.stackexchange.com/questions/tagged/fin-cli)
 
 اگر جواب خود را از طریق راه‌های بالا پیدا نکردید، می‌توانید:
 
 * وارد کانال `#cli` در [اسلک FinPress.org](https://make.finpress.org/chat/) شوید تا شاید به جواب سوالاتتان برسید. این راه برای سوالات کوتاه مناسب است.
-* در انجمن پشتیبانی وردپرس [تاپیک چدید ایجاد کنید](https://finpress.org/support/forum/fp-advanced/#new-post) و برچسب 'FP-CLI' بزنید.
+* در انجمن پشتیبانی وردپرس [تاپیک چدید ایجاد کنید](https://finpress.org/support/forum/fin-advanced/#new-post) و برچسب 'FIN-CLI' بزنید.
 
 مشکلات گیتهاب برای پیگیری بهینه کردن و رفع باگ‌های موجود است، نه برای پشتیبانی عمومی. قبل از ارسال گزارش باگ، لطفا [بخش تمرین را بررسی کنید](https://make.finpress.org/cli/handbook/bug-reports/)تا گزارش شما به درستی آدرس داده شده باشد و کمک شود که در زمان صرفه جویی شود.
 
@@ -140,9 +140,9 @@ source /FULL/PATH/TO/fp-completion.bash
 
 ## گسترش
 
-یک **دستور** یک بخش کوچک از عملکرد FP-CLI است. `fp plugin install` ([doc](https://developer.finpress.org/cli/commands/plugin/install/)) یک دستور است. `fp plugin activate` ([doc](https://developer.finpress.org/cli/commands/plugin/activate/)) یک دستور دیگر است.
+یک **دستور** یک بخش کوچک از عملکرد FIN-CLI است. `fin plugin install` ([doc](https://developer.finpress.org/cli/commands/plugin/install/)) یک دستور است. `fin plugin activate` ([doc](https://developer.finpress.org/cli/commands/plugin/activate/)) یک دستور دیگر است.
 
-FP-CLI قابلیت ثبت هر کلاس، تابع یا بسته قابل فراخوانی را بصورت دستور دارد. جزئیات استفاده را از بخش توضیحات مندرج شده می‌خواند. `FP_CLI::add_command()` ([doc](https://make.finpress.org/cli/handbook/internal-api/fp-cli-add-command/)) برای هر دو حالت ثبت دستور داخلی و ثالث استفاده می‌شود. 
+FIN-CLI قابلیت ثبت هر کلاس، تابع یا بسته قابل فراخوانی را بصورت دستور دارد. جزئیات استفاده را از بخش توضیحات مندرج شده می‌خواند. `FIN_CLI::add_command()` ([doc](https://make.finpress.org/cli/handbook/internal-api/fin-cli-add-command/)) برای هر دو حالت ثبت دستور داخلی و ثالث استفاده می‌شود. 
 
 ```php
 /**
@@ -157,26 +157,26 @@ FP-CLI قابلیت ثبت هر کلاس، تابع یا بسته قابل فر�
  *
  * ## EXAMPLES
  *
- *     $ fp option delete my_option
+ *     $ fin option delete my_option
  *     Success: Deleted 'my_option' option.
  */
 $delete_option_cmd = function( $args ) {
 	list( $key ) = $args;
 
 	if ( ! delete_option( $key ) ) {
-		FP_CLI::error( "Could not delete '$key' option. Does it exist?" );
+		FIN_CLI::error( "Could not delete '$key' option. Does it exist?" );
 	} else {
-		FP_CLI::success( "Deleted '$key' option." );
+		FIN_CLI::success( "Deleted '$key' option." );
 	}
 };
-FP_CLI::add_command( 'option delete', $delete_option_cmd );
+FIN_CLI::add_command( 'option delete', $delete_option_cmd );
 ```
 
-FP-CLI دارای ده‌ها دستور است. ایجاد یک  دستور بسیار ساده‌تر از چیزی است که بنظر می‌رسد. بخش [کتابچه دستورات](https://make.finpress.org/cli/handbook/commands-cookbook/) را برای آموزش مطالعه کنید. [API داخلی docs](https://make.finpress.org/cli/handbook/internal-api/) را برای آشنایی با انواع عملکردهای مفید که می‌توانید در دستور دلخواه FP-CLI استفاده کنید را ببینید. 
+FIN-CLI دارای ده‌ها دستور است. ایجاد یک  دستور بسیار ساده‌تر از چیزی است که بنظر می‌رسد. بخش [کتابچه دستورات](https://make.finpress.org/cli/handbook/commands-cookbook/) را برای آموزش مطالعه کنید. [API داخلی docs](https://make.finpress.org/cli/handbook/internal-api/) را برای آشنایی با انواع عملکردهای مفید که می‌توانید در دستور دلخواه FIN-CLI استفاده کنید را ببینید. 
 
 ## مشارکت
 
-ما از شما برای مشارکت در FP-CLI قدردانی می‌کنیم. به خاطر شما و جامعه اطراف شماست که FP-CLI چنین پروژه‌ای عالی است.
+ما از شما برای مشارکت در FIN-CLI قدردانی می‌کنیم. به خاطر شما و جامعه اطراف شماست که FIN-CLI چنین پروژه‌ای عالی است.
 
 **مشارکت فقط به یک کد محدود نمی‌شود.** ما شما را تشویق می‌کنیم تا به روشی که متناسب با توانایی‌های شما است مشارکت کنید
 با نوشتن آموزش, ارائه یک نسخه‌ی نمایشی در میتاپ شما، کمک به کاربران دیگر با پشتیبانی و پاسخگویی و یا بررسی مستندات ما.
@@ -185,7 +185,7 @@ FP-CLI دارای ده‌ها دستور است. ایجاد یک  دستور ب�
 
 ## رهبری
 
-FP-CLI یک نگهدارنده دارد: [schlessera](http://github.com/schlessera).
+FIN-CLI یک نگهدارنده دارد: [schlessera](http://github.com/schlessera).
 
 به تناسب، ما [دسترسی برا نوشتن به مشارکت کنندگان می‌دهیم](https://make.finpress.org/cli/handbook/committers-credo/)،آنهایی که توانایی خود را در طی زمان برای جلو بردن پروژه نشان دمی‌دهند.
 
@@ -196,9 +196,9 @@ FP-CLI یک نگهدارنده دارد: [schlessera](http://github.com/schlesse
 علاوه بر کتابخانه های تعریف شده در [composer.json](composer.json) ما از پروژه‌ها یا کدهای زیر استفاده کرده‌ایم:
 
 * [Drush](https://github.com/drush-ops/drush) برای خیلی چیزها
-* [fpshell](https://code.trac.finpress.org/browser/fpshell) برای `fp shell`
-* [Regenerate Thumbnails](https://finpress.org/plugins/regenerate-thumbnails/) برای `fp media regenerate`
-* [Search-Replace-DB](https://github.com/interconnectit/Search-Replace-DB) برای `fp search-replace`
-* [FinPress-CLI-Exporter](https://github.com/Automattic/FinPress-CLI-Exporter) برای `fp export`
-* [FinPress-CLI-Importer](https://github.com/Automattic/FinPress-CLI-Importer) برای `fp import`
-* [finpress-plugin-tests](https://github.com/benbalter/finpress-plugin-tests/) برای `fp scaffold plugin-tests`
+* [finshell](https://code.trac.finpress.org/browser/finshell) برای `fin shell`
+* [Regenerate Thumbnails](https://finpress.org/plugins/regenerate-thumbnails/) برای `fin media regenerate`
+* [Search-Replace-DB](https://github.com/interconnectit/Search-Replace-DB) برای `fin search-replace`
+* [FinPress-CLI-Exporter](https://github.com/Automattic/FinPress-CLI-Exporter) برای `fin export`
+* [FinPress-CLI-Importer](https://github.com/Automattic/FinPress-CLI-Importer) برای `fin import`
+* [finpress-plugin-tests](https://github.com/benbalter/finpress-plugin-tests/) برای `fin scaffold plugin-tests`

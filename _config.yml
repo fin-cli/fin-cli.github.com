@@ -5,7 +5,7 @@ markdown: kramdown
 gems:
   - jekyll-paginate
   - jekyll-redirect-from
-url: https://fp-cli.org
+url: https://fin-cli.org
 permalink: /blog/:title.html
 paginate: 10
 paginate_path: /blog/page:num

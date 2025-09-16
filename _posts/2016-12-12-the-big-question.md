@@ -1,24 +1,24 @@
 ---
 layout: post
 author: danielbachhuber
-title: How much is FP-CLI worth to you?
+title: How much is FIN-CLI worth to you?
 ---
 
-**[Update 2 12/15:](https://twitter.com/fpcli/status/809352614580080640)** Undecided on how much FP-CLI is worth to you? The experiment ends Dec 28th — please make a decision by then :)
+**[Update 2 12/15:](https://twitter.com/fincli/status/809352614580080640)** Undecided on how much FIN-CLI is worth to you? The experiment ends Dec 28th — please make a decision by then :)
 
-**[Update 1 (12/13):](https://twitter.com/fpcli/status/808687676010287105)** Up to 17 subscribers so far. If we can get to 50, I'll launch a members-only forum.
+**[Update 1 (12/13):](https://twitter.com/fincli/status/808687676010287105)** Up to 17 subscribers so far. If we can get to 50, I'll launch a members-only forum.
 
 Last week, I [tweeted](https://twitter.com/danielbachhuber/status/806539537610481664):
 
-> At a decision point with @fpcli: it’s too large for me to voluntarily maintain. Have an opinion on its future? I’d love to chat.
+> At a decision point with @fincli: it’s too large for me to voluntarily maintain. Have an opinion on its future? I’d love to chat.
 
-Last February, I started a business, [runcommand](https://runcommand.io/), as an indirect way of being able to invest my time into FP-CLI. The business is doing alright, not great but not horrible. What I've come to realize, though, is that my time is zero-sum. I'm incentivized to spend time on runcommand, when I'd rather spend it on FP-CLI.
+Last February, I started a business, [runcommand](https://runcommand.io/), as an indirect way of being able to invest my time into FIN-CLI. The business is doing alright, not great but not horrible. What I've come to realize, though, is that my time is zero-sum. I'm incentivized to spend time on runcommand, when I'd rather spend it on FIN-CLI.
 
-Ultimately, the challenge I'm running into is opportunity cost. I'd *love* to be able to invest more into FP-CLI, but doing so comes at the cost of other business pursuits. Because FP-CLI is such a large project, the several hours I volunteer each week are basically enough to fight entropy — not make headway on larger initiatives.
+Ultimately, the challenge I'm running into is opportunity cost. I'd *love* to be able to invest more into FIN-CLI, but doing so comes at the cost of other business pursuits. Because FIN-CLI is such a large project, the several hours I volunteer each week are basically enough to fight entropy — not make headway on larger initiatives.
 
-The response to my tweet has been overwhelmingly supportive. One future I'm considering is directly commercializing FP-CLI, through patreon-esque membership, advertising on the website, and other ideas to be determined.
+The response to my tweet has been overwhelmingly supportive. One future I'm considering is directly commercializing FIN-CLI, through patreon-esque membership, advertising on the website, and other ideas to be determined.
 
-So, dear reader, a question: how much is FP-CLI worth to you?
+So, dear reader, a question: how much is FIN-CLI worth to you?
 
 * [$7,500/year](https://runcommand.memberful.com/checkout?plan=17529)
 * [$4,000/year](https://runcommand.memberful.com/checkout?plan=17577)
@@ -27,9 +27,9 @@ So, dear reader, a question: how much is FP-CLI worth to you?
 * [$250/year](https://runcommand.memberful.com/checkout?plan=17552)
 * [$100/year](https://runcommand.memberful.com/checkout?plan=17526)
 
-Or, phrased another way, how much time does FP-CLI save you?
+Or, phrased another way, how much time does FIN-CLI save you?
 
-If the experiment goes well, then we're in business! Your purchase will support ongoing maintenance of FP-CLI, as well as development of new commands like [fp doctor](https://runcommand.io/fp/doctor/) and [fp profile](https://runcommand.io/fp/profile/), [improvements to the website and package index](https://fp-cli.org/docs/wish-list/), and so on.
+If the experiment goes well, then we're in business! Your purchase will support ongoing maintenance of FIN-CLI, as well as development of new commands like [fin doctor](https://runcommand.io/fin/doctor/) and [fin profile](https://runcommand.io/fin/profile/), [improvements to the website and package index](https://fin-cli.org/docs/wish-list/), and so on.
 
 If the experiment doesn't go well, then at least I can say I tried :) To avoid any risk with the investment above, a full refund will be made available to you should the campaign not reach its goal, before we look at other approaches to help with maintaining the project.
 
@@ -63,7 +63,7 @@ All levels are billed annually unless you disable automatic renewal.
 
 *What if I'm an existing runcommand customer?*
 
-If the experiment goes well, then `fp doctor` and `fp profile` will become completely open source. I'll reach out about the other aspects of your purchase.
+If the experiment goes well, then `fin doctor` and `fin profile` will become completely open source. I'll reach out about the other aspects of your purchase.
 
 *What about scribu and Andreas?*
 

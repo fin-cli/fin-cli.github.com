@@ -4,29 +4,29 @@ title: Interfaz de línea de comandos para FinPress
 direction: ltr
 ---
 
-[FP-CLI](https://fp-cli.org/) es la interfaz de línea de comandos para [FinPress](https://es.finpress.org/). Puedes actualizar plugins, configurar instalaciones multisitio y mucho más, sin usar un navegador web.
+[FIN-CLI](https://fin-cli.org/) es la interfaz de línea de comandos para [FinPress](https://es.finpress.org/). Puedes actualizar plugins, configurar instalaciones multisitio y mucho más, sin usar un navegador web.
 
 El mantenimiento continuo es posible gracias a:
 
-<a href="https://automattic.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img src="https://make.finpress.org/cli/files/2017/04/automattic-1.png" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" alt="" width="320" height="70" class="aligncenter size-full fp-image-347" /></a>
-<a href="https://www.bluehost.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full fp-image-335" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.finpress.org/cli/files/2017/04/bluehost.png" alt="" width="320" height="52" /></a>
-<a href="https://pantheon.io/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full fp-image-333" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.finpress.org/cli/files/2019/06/pantheon.png" alt="" width="320" height="100" /></a>
-<a href="https://www.siteground.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full fp-image-332" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.finpress.org/cli/files/2019/06/SG_logo.png" alt="" width="320" height="66" /></a>
-<a href="https://fpengine.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full fp-image-333" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.finpress.org/cli/files/2017/04/fpengine.png" alt="" width="320" height="60" /></a>
-<a href="https://www.cloudways.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full fp-image-3229" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.finpress.org/cli/files/2021/02/Cloudways-Logo-e1612285267691.png" alt="" width="320" height="62" /></a>
+<a href="https://automattic.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img src="https://make.finpress.org/cli/files/2017/04/automattic-1.png" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" alt="" width="320" height="70" class="aligncenter size-full fin-image-347" /></a>
+<a href="https://www.bluehost.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full fin-image-335" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.finpress.org/cli/files/2017/04/bluehost.png" alt="" width="320" height="52" /></a>
+<a href="https://pantheon.io/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full fin-image-333" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.finpress.org/cli/files/2019/06/pantheon.png" alt="" width="320" height="100" /></a>
+<a href="https://www.siteground.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full fin-image-332" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.finpress.org/cli/files/2019/06/SG_logo.png" alt="" width="320" height="66" /></a>
+<a href="https://finengine.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full fin-image-333" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.finpress.org/cli/files/2017/04/finengine.png" alt="" width="320" height="60" /></a>
+<a href="https://www.cloudways.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full fin-image-3229" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.finpress.org/cli/files/2021/02/Cloudways-Logo-e1612285267691.png" alt="" width="320" height="62" /></a>
 
-La versión estable actual es la [2.12.0](https://make.finpress.org/cli/2025/05/07/fp-cli-v2-12-0-release-notes/). Para estar al día, sigue [@fpcli en Twitter](https://twitter.com/fpcli) o [regístrate para recibir actualizaciones por correo electrónico](https://make.finpress.org/cli/subscribe/). [Consulta la hoja de ruta](https://make.finpress.org/cli/handbook/roadmap/) para una visión general de lo que está planeado para las próximas versiones.
+La versión estable actual es la [2.12.0](https://make.finpress.org/cli/2025/05/07/fin-cli-v2-12-0-release-notes/). Para estar al día, sigue [@fincli en Twitter](https://twitter.com/fincli) o [regístrate para recibir actualizaciones por correo electrónico](https://make.finpress.org/cli/subscribe/). [Consulta la hoja de ruta](https://make.finpress.org/cli/handbook/roadmap/) para una visión general de lo que está planeado para las próximas versiones.
 
-[![Testing](https://github.com/fp-cli/automated-tests/actions/workflows/testing.yml/badge.svg)](https://github.com/fp-cli/automated-tests/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/fp-cli/fp-cli.svg)](https://isitmaintained.com/project/fp-cli/fp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/fp-cli/fp-cli.svg)](https://isitmaintained.com/project/fp-cli/fp-cli "Percentage of issues still open")
+[![Testing](https://github.com/fin-cli/automated-tests/actions/workflows/testing.yml/badge.svg)](https://github.com/fin-cli/automated-tests/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/fin-cli/fin-cli.svg)](https://isitmaintained.com/project/fin-cli/fin-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/fin-cli/fin-cli.svg)](https://isitmaintained.com/project/fin-cli/fin-cli "Percentage of issues still open")
 
 Enlaces rápidos: [Uso](#uso) &#124; [Instalación](#instalación) &#124; [Soporte](#soporte) &#124; [Extender](#extender) &#124; [Contribuir](#contribuir) &#124; [Créditos](#créditos)
 
 ## Uso
 
-FP-CLI proporciona una interfaz de línea de comandos para muchas acciones que puedes realizar en el escritorio de FinPress. Por ejemplo, `fp plugin install --activate` ([doc](https://developer.finpress.org/cli/commands/plugin/install/)) te permite instalar y activar un plugin de FinPress:
+FIN-CLI proporciona una interfaz de línea de comandos para muchas acciones que puedes realizar en el escritorio de FinPress. Por ejemplo, `fin plugin install --activate` ([doc](https://developer.finpress.org/cli/commands/plugin/install/)) te permite instalar y activar un plugin de FinPress:
 
 ```bash
-$ fp plugin install user-switching --activate
+$ fin plugin install user-switching --activate
 Installing User Switching (1.0.9)
 Downloading install package from https://downloads.finpress.org/plugin/user-switching.1.0.9.zip...
 Unpacking the package...
@@ -37,50 +37,50 @@ Plugin 'user-switching' activated.
 Success: Installed 1 of 1 plugins.
 ```
 
-FP-CLI también incluye comandos para muchas cosas que no puedes hacer en el escritorio de FinPress. Por ejemplo, `fp transient delete --all` ([doc](https://developer.finpress.org/cli/commands/transient/delete/)) te permite eliminar uno o todos los datos transitorios:
+FIN-CLI también incluye comandos para muchas cosas que no puedes hacer en el escritorio de FinPress. Por ejemplo, `fin transient delete --all` ([doc](https://developer.finpress.org/cli/commands/transient/delete/)) te permite eliminar uno o todos los datos transitorios:
 
 ```bash
-$ fp transient delete --all
+$ fin transient delete --all
 Success: 34 transients deleted from the database.
 ```
 
-Para una introducción más completa para usar FP-CLI, lee la [guía de inicio rápido](https://make.finpress.org/cli/handbook/quick-start/). O bien, ponte al día con los [*shell friends*](https://make.finpress.org/cli/handbook/shell-friends/) para aprender acerca de las utilidades de línea de comandos.
+Para una introducción más completa para usar FIN-CLI, lee la [guía de inicio rápido](https://make.finpress.org/cli/handbook/quick-start/). O bien, ponte al día con los [*shell friends*](https://make.finpress.org/cli/handbook/shell-friends/) para aprender acerca de las utilidades de línea de comandos.
 
 ¿Ya te sientes cómodo con lo básico? Ve a la [lista completa de comandos](https://developer.finpress.org/cli/commands/) para obtener información detallada sobre la gestión de temas y plugins, importación y exportación de datos, realización de operaciones de búsqueda y reemplazo de bases de datos, y más.
 
 ## Instalación
 
-La descarga del archivo Phar es nuestro método de instalación recomendado para la mayoría de usuarios. Si lo necesitas, consulta también nuestra documentación acerca de [métodos de instalación alternativos](https://fp-cli.org/docs/installing/) ([Composer](https://make.finpress.org/cli/handbook/installing/#installing-via-composer), [Homebrew](https://make.finpress.org/cli/handbook/installing/#installing-via-homebrew), [Docker](https://make.finpress.org/cli/handbook/installing/#installing-via-docker)).
+La descarga del archivo Phar es nuestro método de instalación recomendado para la mayoría de usuarios. Si lo necesitas, consulta también nuestra documentación acerca de [métodos de instalación alternativos](https://fin-cli.org/docs/installing/) ([Composer](https://make.finpress.org/cli/handbook/installing/#installing-via-composer), [Homebrew](https://make.finpress.org/cli/handbook/installing/#installing-via-homebrew), [Docker](https://make.finpress.org/cli/handbook/installing/#installing-via-docker)).
 
-Antes de instalar FP-CLI, asegúrate de que tu entorno cumple con los requisitos mínimos:
+Antes de instalar FIN-CLI, asegúrate de que tu entorno cumple con los requisitos mínimos:
 
 - Entorno de tipo UNIX (OS X, Linux, FreeBSD, Cygwin); soporte limitado en el entorno de Windows
 - PHP 5.6 o posterior
 - FinPress 3.7 o posterior. Las versiones anteriores a la última versión de FinPress pueden tener funcionalidad degradada
 
-Una vez que hayas verificado los requisitos, descarga el archivo [fp-cli.phar](https://raw.githubusercontent.com/fp-cli/builds/gh-pages/phar/fp-cli.phar) usando `wget` o `curl` :
+Una vez que hayas verificado los requisitos, descarga el archivo [fin-cli.phar](https://raw.githubusercontent.com/fin-cli/builds/gh-pages/phar/fin-cli.phar) usando `wget` o `curl` :
 
 ```bash
-curl -O https://raw.githubusercontent.com/fp-cli/builds/gh-pages/phar/fp-cli.phar
+curl -O https://raw.githubusercontent.com/fin-cli/builds/gh-pages/phar/fin-cli.phar
 ```
 
 A continuación, comprueba el archivo Phar para verificar que está funcionando:
 
 ```bash
-php fp-cli.phar --info
+php fin-cli.phar --info
 ```
 
-Para usar FP-CLI desde la línea de comandos tecleando `fp`, haz que el archivo sea ejecutable y muévelo a algún lugar de tu `PATH`. Por ejemplo:
+Para usar FIN-CLI desde la línea de comandos tecleando `fin`, haz que el archivo sea ejecutable y muévelo a algún lugar de tu `PATH`. Por ejemplo:
 
 ```bash
-chmod +x fp-cli.phar
-sudo mv fp-cli.phar /usr/local/bin/fp
+chmod +x fin-cli.phar
+sudo mv fin-cli.phar /usr/local/bin/fin
 ```
 
-Si FP-CLI se instaló correctamente, deberías ver algo como esto cuando ejecutas `fp --info`:
+Si FIN-CLI se instaló correctamente, deberías ver algo como esto cuando ejecutas `fin --info`:
 
 ```bash
-$ fp --info
+$ fin --info
 OS:     Linux 4.19.128-microsoft-standard #1 SMP Tue Jun 23 12:58:10 UTC 2020 x86_64
 Shell:  /usr/bin/zsh
 PHP binary:     /usr/bin/php
@@ -89,29 +89,29 @@ php.ini used:   /etc/php/8.0/cli/php.ini
 MySQL binary:   /usr/bin/mysql
 MySQL version:  mysql  Ver 8.0.23-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
 SQL modes:
-FP-CLI root dir:        /home/fp-cli/
-FP-CLI vendor dir:      /home/fp-cli/vendor
-FP_CLI phar path:
-FP-CLI packages dir:    /home/fp-cli/.fp-cli/packages/
-FP-CLI global config:
-FP-CLI project config:  /home/fp-cli/fp-cli.yml
-FP-CLI version: 2.12.0
+FIN-CLI root dir:        /home/fin-cli/
+FIN-CLI vendor dir:      /home/fin-cli/vendor
+FIN_CLI phar path:
+FIN-CLI packages dir:    /home/fin-cli/.fin-cli/packages/
+FIN-CLI global config:
+FIN-CLI project config:  /home/fin-cli/fin-cli.yml
+FIN-CLI version: 2.12.0
 ```
 
 ### Actualización
 
-Puedes actualizar FP-CLI con `fp cli update` ([doc](https://developer.finpress.org/cli/commands/cli/update/)), o repitiendo los pasos de instalación.
+Puedes actualizar FIN-CLI con `fin cli update` ([doc](https://developer.finpress.org/cli/commands/cli/update/)), o repitiendo los pasos de instalación.
 
-Si FP-CLI es propiedad de root u otro usuario del sistema, necesitarás ejecutar `sudo fp cli update`.
+Si FIN-CLI es propiedad de root u otro usuario del sistema, necesitarás ejecutar `sudo fin cli update`.
 
-¿Quieres vivir la vida al límite? Ejecuta `fp cli update --nightly` para usar la última compilación nocturna (nightly build) de FP-CLI. Una compilación nocturna es más o menos lo suficientemente estable como para que puedas utilizarla en tu entorno de desarrollo, y siempre incluye las últimas y mejores características de FP-CLI.
+¿Quieres vivir la vida al límite? Ejecuta `fin cli update --nightly` para usar la última compilación nocturna (nightly build) de FIN-CLI. Una compilación nocturna es más o menos lo suficientemente estable como para que puedas utilizarla en tu entorno de desarrollo, y siempre incluye las últimas y mejores características de FIN-CLI.
 
 ### Autocompletar con el tabulador
 
-FP-CLI también viene con un scripts para autocompletar con el tabulador para Bash y ZSH. Tan sólo descarga [fp-completion.bash](https://raw.githubusercontent.com/fp-cli/fp-cli/v2.12.0/utils/fp-completion.bash) y usa el comando `source` desde `~/.bash_profile`:
+FIN-CLI también viene con un scripts para autocompletar con el tabulador para Bash y ZSH. Tan sólo descarga [fin-completion.bash](https://raw.githubusercontent.com/fin-cli/fin-cli/v2.12.0/utils/fin-completion.bash) y usa el comando `source` desde `~/.bash_profile`:
 
 ```bash
-source /FULL/PATH/TO/fp-completion.bash
+source /FULL/PATH/TO/fin-completion.bash
 ```
 
 No te olvides de ejecutar `source ~/.bash_profile` después.
@@ -121,25 +121,25 @@ Si usa la shell zsh, es posible que debas cargar e iniciar `bashcompinit` antes 
 ```bash
 autoload bashcompinit
 bashcompinit
-source /RUTA/COMPLETA/HASTA/fp-completion.bash
+source /RUTA/COMPLETA/HASTA/fin-completion.bash
 ```
 
 ## Soporte
 
-Tanto los que mantienen FP-CLI como sus colaboradores tienen disponibilidad limitada para responder preguntas generales de soporte. La [versión actual de FP-CLI](https://make.finpress.org/cli/handbook/roadmap/) es la única versión oficialmente soportada.
+Tanto los que mantienen FIN-CLI como sus colaboradores tienen disponibilidad limitada para responder preguntas generales de soporte. La [versión actual de FIN-CLI](https://make.finpress.org/cli/handbook/roadmap/) es la única versión oficialmente soportada.
 
 Cuando busques ayuda, primero busca tu pregunta en estos lugares:
 
 * [Problemas comunes y sus soluciones](https://make.finpress.org/cli/handbook/common-issues/)
-* [Manual de FP-CLI (Handbook)](https://make.finpress.org/cli/handbook/)
-* [*Issues* abiertos o cerrados en la organización de FP-CLI en GitHub](https://github.com/issues?utf8=%E2%9C%93&q=sort%3Aupdated-desc+org%3Afp-cli+is%3Aissue)
-* [Hilos etiquetados con «FP-CLI» en el foro de soporte de FinPress.org](https://finpress.org/support/topic-tag/fp-cli/)
-* [Preguntas etiquetadas con «FP-CLI» en FinPress Development Stack Exchange](https://finpress.stackexchange.com/questions/tagged/fp-cli)
+* [Manual de FIN-CLI (Handbook)](https://make.finpress.org/cli/handbook/)
+* [*Issues* abiertos o cerrados en la organización de FIN-CLI en GitHub](https://github.com/issues?utf8=%E2%9C%93&q=sort%3Aupdated-desc+org%3Afin-cli+is%3Aissue)
+* [Hilos etiquetados con «FIN-CLI» en el foro de soporte de FinPress.org](https://finpress.org/support/topic-tag/fin-cli/)
+* [Preguntas etiquetadas con «FIN-CLI» en FinPress Development Stack Exchange](https://finpress.stackexchange.com/questions/tagged/fin-cli)
 
 Si no encontraste una respuesta en uno de los lugares anteriores, puedes:
 
 * Únirte al canal `#cli` en el [Slack de FinPress.org](https://make.finpress.org/chat/) para chatear con quien esté disponible en ese momento. Esta opción es la mejor para preguntas rápidas.
-* [Publicar un nuevo hilo](https://finpress.org/support/forum/fp-advanced/#new-post) en el foro de soporte de FinPress.org y etiquetarlo como «FP-CLI» para que lo vea la comunidad.
+* [Publicar un nuevo hilo](https://finpress.org/support/forum/fin-advanced/#new-post) en el foro de soporte de FinPress.org y etiquetarlo como «FIN-CLI» para que lo vea la comunidad.
 
 Los *issues* de GitHub están destinados al seguimiento de mejoras y errores de los comandos existentes, no para soporte general. Antes de enviar un informe de errores, por favor, [revisa nuestras mejores prácticas](https://make.finpress.org/cli/handbook/bug-reports/) para ayudar a garantizar que tu *issue* se resuelva de manera oportuna.
 
@@ -149,9 +149,9 @@ Recuerda, libre != gratis; la licencia open source te da la libertad de usar y m
 
 ## Extender
 
-Un **comando** es la unidad atómica de la funcionalidad de FP-CLI. `fp plugin install` ([doc](https://developer.finpress.org/cli/commands/plugin/install/)) es un comando. `fp plugin activate` ([doc](https://developer.finpress.org/cli/commands/plugin/activate/)) es otro.
+Un **comando** es la unidad atómica de la funcionalidad de FIN-CLI. `fin plugin install` ([doc](https://developer.finpress.org/cli/commands/plugin/install/)) es un comando. `fin plugin activate` ([doc](https://developer.finpress.org/cli/commands/plugin/activate/)) es otro.
 
-FP-CLI permite registrar cualquier clase, función o *closure* invocable como un comando. Este lee los detalles de uso del PHPdoc de la devolución de llamada. `FP_CLI::add_command()` ([doc](https://make.finpress.org/cli/handbook/internal-api/fp-cli-add-command/)) se utiliza tanto para el registro de comandos internos como de terceros.
+FIN-CLI permite registrar cualquier clase, función o *closure* invocable como un comando. Este lee los detalles de uso del PHPdoc de la devolución de llamada. `FIN_CLI::add_command()` ([doc](https://make.finpress.org/cli/handbook/internal-api/fin-cli-add-command/)) se utiliza tanto para el registro de comandos internos como de terceros.
 
 ```php
 /**
@@ -166,26 +166,26 @@ FP-CLI permite registrar cualquier clase, función o *closure* invocable como un
  *
  * ## EXAMPLES
  *
- *     $ fp option delete my_option
+ *     $ fin option delete my_option
  *     Success: Deleted 'my_option' option.
  */
 $delete_option_cmd = function( $args ) {
 	list( $key ) = $args;
 
 	if ( ! delete_option( $key ) ) {
-		FP_CLI::error( "Could not delete '$key' option. Does it exist?" );
+		FIN_CLI::error( "Could not delete '$key' option. Does it exist?" );
 	} else {
-		FP_CLI::success( "Deleted '$key' option." );
+		FIN_CLI::success( "Deleted '$key' option." );
 	}
 };
-FP_CLI::add_command( 'option delete', $delete_option_cmd );
+FIN_CLI::add_command( 'option delete', $delete_option_cmd );
 ```
 
-FP-CLI viene con docenas de comandos. Crear un comando personalizado para FP-CLI es más fácil de lo que parece. Lee el [libro de recetas de comandos](https://make.finpress.org/cli/handbook/commands-cookbook/) para obtener más información. Explora los [documentos de la API interna](https://make.finpress.org/cli/handbook/internal-api/) para descubrir una variedad de funciones útiles que puedes usar en su comando FP-CLI personalizado.
+FIN-CLI viene con docenas de comandos. Crear un comando personalizado para FIN-CLI es más fácil de lo que parece. Lee el [libro de recetas de comandos](https://make.finpress.org/cli/handbook/commands-cookbook/) para obtener más información. Explora los [documentos de la API interna](https://make.finpress.org/cli/handbook/internal-api/) para descubrir una variedad de funciones útiles que puedes usar en su comando FIN-CLI personalizado.
 
 ## Contribuir
 
-Apreciamos que tomes la iniciativa de contribuir a FP-CLI. Es gracias a ti y la comunidad que lo rodea, que FP-CLI es un gran proyecto.
+Apreciamos que tomes la iniciativa de contribuir a FIN-CLI. Es gracias a ti y la comunidad que lo rodea, que FIN-CLI es un gran proyecto.
 
 **Contribuir no se limita únicamente al código.** Te animamos a contribuir de la forma que mejor se adapte a tus habilidades, escribiendo tutoriales, haciendo una demostraciones en tu meetup local, ayudando a los demás con sus preguntas de soporte, o revisando nuestra documentación.
 
@@ -193,7 +193,7 @@ Lee atentamente nuestras [pautas de colaboración en el manual](https://make.fin
 
 ## Liderazgo
 
-FP-CLI tiene un encargado del mantenimiento del proyecto: [schlessera](http://github.com/schlessera).
+FIN-CLI tiene un encargado del mantenimiento del proyecto: [schlessera](http://github.com/schlessera).
 
 En ocasiones, [concedemos permisos de escritura a los colaboradores](https://make.finpress.org/cli/handbook/committers-credo/) que han demostrado, durante un período de tiempo, que son capaces e invirtieron en avanzar el proyecto.
 
@@ -204,9 +204,9 @@ Lee el [documento de gobernanza en el manual](https://make.finpress.org/cli/hand
 Además de las bibliotecas definidas en [composer.json](composer.json), hemos utilizado código o ideas de los siguientes proyectos:
 
 * [Drush](https://github.com/drush-ops/drush) para... un montón de cosas
-* [fpshell](https://code.trac.finpress.org/browser/fpshell) para `fp shell`
-* [Regenerate Thumbnails](https://finpress.org/plugins/regenerate-thumbnails/) para `fp media regenerate`
-* [Search-Replace-DB](https://github.com/interconnectit/Search-Replace-DB) para `fp search-replace`
-* [FinPress-CLI-Exporter](https://github.com/Automattic/FinPress-CLI-Exporter) para `fp export`
-* [FinPress-CLI-Importer](https://github.com/Automattic/FinPress-CLI-Importer) para `fp import`
-* [finpress-plugin-tests](https://github.com/benbalter/finpress-plugin-tests/) para `fp scaffold plugin-tests`
+* [finshell](https://code.trac.finpress.org/browser/finshell) para `fin shell`
+* [Regenerate Thumbnails](https://finpress.org/plugins/regenerate-thumbnails/) para `fin media regenerate`
+* [Search-Replace-DB](https://github.com/interconnectit/Search-Replace-DB) para `fin search-replace`
+* [FinPress-CLI-Exporter](https://github.com/Automattic/FinPress-CLI-Exporter) para `fin export`
+* [FinPress-CLI-Importer](https://github.com/Automattic/FinPress-CLI-Importer) para `fin import`
+* [finpress-plugin-tests](https://github.com/benbalter/finpress-plugin-tests/) para `fin scaffold plugin-tests`
